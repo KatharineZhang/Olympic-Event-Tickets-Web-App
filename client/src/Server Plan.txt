@@ -1,0 +1,30 @@
+TODO:
+
+- make events.ts tests
+- add mutation comment for getSPortEVents in routes.ts
+
+IN PROGRESS:
+- implement all server tests
+
+DONE:
+change map structure to include "event name + sport" as key!!!
+- make Map<name, event> in routes.ts
+- Back Click (load all the files again without saving)
+    - this just re-renders the original fields so no need for this
+- Refresh Click 
+    - must GET infomration from the server:
+        - sorted events by date
+        - sorted events by ticket (Top 3)
+        - sports list
+        - all events
+        - server side must have field names "sorted", "top3", "allSports", and "allEvents"
+- Buy Tickets (updated map & all of the DS's, but would need to click Refresh in order for it to update the UI)
+- Create Event Click (for Add Event page) (save in server, but would need to click refresh to refresh home page)
+- Sport dropdown (send back list of events for sport)
+- Get Tickets Click (for sport dropdown)
+    - need to send back string[] sports list
+
+
+QUESTIONS:
+
+
